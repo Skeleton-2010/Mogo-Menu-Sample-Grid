@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans";
+}
+
+.Page-Wrapper {
+  max-width: 1256px;
+  margin: auto;
+}
+
+.Top-Menu {
+  width: 92%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 80px;
+}
+
+.Header-Logo {
+  font-weight: 700;
+  font-size: 40px;
+  color: #64daee;
+}
+
+.Header-Links {
+  display: flex;
+  gap: 48px;
+}
+
+.Link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #64daee;
+  text-decoration: none;
+}
+
+
+.Title-Container {
+  text-align: center;
+}
+
+.Title-Container::after {
+  content: "";
+  display: block;
+  width: 88px;
+  height: 4px;
+  background-color: #fa8080;
+  margin: auto;
+}
+
+.Top-Text {
+  font-family: "Lobster";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  user-select: none;
+  color: #323232;
+  margin-bottom: 16px;
+}
+
+.Bottom-Text {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: #323232;
+  margin-bottom: 40px;
+}
+.Our-Priorities{
+  width: 88%;
+  height: 64vh;
+  display: grid;
+  margin: auto;
+  margin-top: 64px;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 50% 50%;
+}
+.Priority-Section{
+  width: 96%;
+  height: 96%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Section-Name{
+  font-size: 32px;
+  font-weight: 700;
+}
+.Section-Description{
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 8px;
+  color: #161616;
+}
+.Section-Image{
+  width: 48px;
+  height: 48px;
+}
+.Section-Text{
+  margin-top: 48px;
+  width: 80%;
+  height: 100%;
+}
